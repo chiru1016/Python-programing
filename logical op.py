@@ -1,4 +1,4 @@
-good_girl = True
+good_girl = 1
 same_age = 0
 criminal = 1
 
