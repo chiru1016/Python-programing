@@ -13,7 +13,7 @@ if choice == 1:
         print("Limit over")
 elif choice == 2:
     option = ""
-    while option != "quit":
+    while True:
         option = input("> ").lower()
         if option == "help":
             print("Start \nStop \nQuit")
