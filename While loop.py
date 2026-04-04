@@ -13,15 +13,15 @@ if choice == 1:
         print("Limit over")
 elif choice == 2:
     option = ""
-    while option.lower() != "quit":
-        option = str(input("> "))
-        if option.lower() == "help":
+    while option != "quit":
+        option = input("> ").lower()
+        if option == "help":
             print("Start \nStop \nQuit")
-        elif option.lower() == "start":
+        elif option == "start":
             print("Car is starting... ready to go!")
-        elif option.lower() == "stop":
+        elif option == "stop":
             print("Car is stopping...")
-        elif option.lower() == "quit":
+        elif option == "quit":
             print("goodbye")
             break
         else:
