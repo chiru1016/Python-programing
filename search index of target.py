@@ -6,4 +6,4 @@ for i in range(len(arr)):
     if arr[i]== target:
         num = i
         break
-print(num)
+print(f"index: {num}")
