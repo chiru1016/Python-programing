@@ -3,10 +3,10 @@ class Solution:
         mini = 6 * minutes
         hour = 0 if hour is 12 else hour
         hr = (30 * hour) + (0.5 * minutes)
-        out = 0
+        result = 0
         if mini > hr:
-            out = mini - hr
+            result = mini - hr
         else:
-            out = hr - mini
-        return min(out, 360 - out)
+            result = hr - mini
+        return min(result, 360 - result)
 
