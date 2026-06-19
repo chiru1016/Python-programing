@@ -4,5 +4,5 @@ class Solution:
         low = 0 # lowest point
         for i in gain:
             low += i
-            high = max(high,low)
+            high = max(high,low) # take max of high and low
         return high
