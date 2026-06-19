@@ -5,4 +5,4 @@ class Solution:
         for i in gain:
             low += i
             high = max(high,low)
-        return
+        return high
